@@ -14,11 +14,12 @@
 	display: inline-flex;
     align-items: center;
     justify-content: center;
-    span ,
+    
     .btn-icon {
     	margin-right: 5px;
     	padding: 0;
     }
+
 	img{
 		/*margin-right: 5px;*/
 		max-width: 20px;
@@ -29,15 +30,11 @@
 		background-color: transparent;
 		color: $yellow_color;
 	}
-
 	
 	svg {
-		margin-right: 5px;
 		max-width: 20px;
-		/*path {
-			fill : $white; 
-		}*/
 	}
+
 	&:hover{
 		svg {
 			path {
@@ -70,6 +67,7 @@
 			color: $white ;
 		}
 	}
+
 	&.flex-center {
 		display: flex;
 		align-items: center;
@@ -125,6 +123,33 @@
 
 }
 
+/*------------------ all maging global --------------*/
+.mr-5{
+	margin-right: 10px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.mr-12{
+	margin-right: 15px;
+}
+.mr-15{
+	margin-right: 15px;
+}
+
+
+.ml-5{
+	margin-left: 5px;
+}
+.ml-10{
+	margin-left: 10px;
+}
+.ml-15{
+	margin-left: 15px;
+}
+
+/*---------------------------------------------------*/
+
 .header {
 	.btn {
 		text-transform: initial;
@@ -157,7 +182,6 @@
 		}
 	}
 }
-
 
 /* Sidebar Theme Button */
 .theme-btn {
@@ -268,3 +292,7 @@
 		}
 	}
 }
+
+
+
+@media screen and (max-width: 767px) {}
