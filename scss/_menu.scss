@@ -54,8 +54,6 @@
                 transition: all 0.5s;
 
                 span{
-                    padding-right: 10px;
-                    
                     img{
                         width: 18px;
                         height: 18px;
@@ -120,6 +118,21 @@
                     a {
                         color: $gray_mid_color;
 
+                        span{
+                            path{
+
+                            }
+                        }
+
+                        &:hover{
+                            color: $white;
+
+                            span{
+                                path{
+                                    fill: $white;
+                                }
+                            }
+                        }
                     }
                 }
             }
